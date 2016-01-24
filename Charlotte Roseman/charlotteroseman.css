@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header {
+  height: 70vh;
+  background-image: url('http://www.ccrcalligraphy.com/wp-content/uploads/2015/09/IMG_1825.jpg');
+}
+
+header h1 {
+  padding-top: 30vh;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: rgb(227,78,232);
+  font-size:100px;
+}
+
+header h2 {
+  padding-top: 0vh;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: rgb(119,73,255);
+  font-size:50px;
+}
+
+nav ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #957D6F;
+  font-family:'Pacifico',; cursive
+  font-size:50px;
+}
+
+nav ul li {
+	display: inline;
+	font-family: 'Pacifico', cursive;
+	padding: 5px;
+	text-decoration: none;
+}
+
+
+nav ul li:hover{
+	color: red;
+	font-family: 'Pacifico', cursive;
+	font-weight: bolder;
+	padding-right:5px;
+}
+
+nav{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #FAEBDB;
+	font-family: 'Lobster', cursive;
+}
+
+.hat-image {
+	width:500px;
+}
+
+p{
+	font-family: 'Pacifico', cursive;
+}
+
+footer {
+	font-family: 'Lobster', cursive;
+}
