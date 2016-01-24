@@ -1,0 +1,21 @@
+nav ul li {
+	display: inline;
+	padding: 5px;
+	text-decoration: none;
+}
+
+
+nav ul li:hover{
+	color: red;
+	font-family: 'Special Elite', cursive;
+	font-weight: bolder;
+}
+
+nav{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #FAEBDB;
+	font-family: sans-serif;
+}
